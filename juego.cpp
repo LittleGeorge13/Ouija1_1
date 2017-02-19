@@ -13,6 +13,7 @@ using namespace std;
 int main (void)
 {
 	//PlaySound(TEXT("Spooky.wav"), NULL, SND_SYNC);
+	PlaySound(TEXT("Spooky.wav"), NULL, SND_ASYNC);
 	
 	char letra[1]; 
 	char pregunta[31]; 
